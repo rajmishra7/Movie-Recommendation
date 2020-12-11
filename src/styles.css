@@ -1,0 +1,51 @@
+*{
+background-color: rgb(13, 13, 13);
+color: #b1b266;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.intro{
+  font-size: small;
+  color: #b1b266
+}
+.output{
+}
+.output-single{
+background-color: #222;
+margin: 0.5rem auto;
+padding: 0.4rem;
+border-top-right-radius: 0.5rem;
+border-bottom-left-radius: 0.5rem;
+width: 70%;
+}
+
+
+.title{
+  display: block;
+background-color:black;
+color: #b1b266;
+padding: 0.5rem 2rem 0rem 2rem;
+font-weight: bolder;
+border-top-right-radius: 0.5rem;
+}
+
+.total-movies{
+  display: block;
+background-color:#b1b266;
+color: rgb(13, 13, 13);
+padding: 0rem 2rem 0.5rem 2rem;
+border-bottom-left-radius: 0.5rem;
+}
+.btn-genre{
+  cursor: pointer;
+  border-radius: 0.6rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(13, 13, 13);
+  background-color:#aaa;
+  color: rgb(13, 13, 13);
+  font-weight: bold;
+}
